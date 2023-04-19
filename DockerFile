@@ -4,4 +4,4 @@ COPY package*.json  index.js ./
 RUN npm install
 
 EXPOSE 1000
-CMD ["node","index.js"] 
+CMD ["node","index.js"] d
