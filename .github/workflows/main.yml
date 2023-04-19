@@ -9,8 +9,10 @@ jobs:
     runs-on: ubunto-latest
 
     steps:
-      - name: 'Testimg Github action'
-        run: pwd
-
-      - name: 'Testimg Printing'
-        run: echo Momen
+      - name: 'Printing Folder Content'
+        run: ls
+      
+      - uses: actions/checkout@v3
+      
+      - name: 'Printing Folder Content'
+        run: ls
