@@ -1,1 +1,16 @@
+on:
+  push:
+    branches:
+      - master
 
+
+jobs:
+  build:
+    runs-on: ubunto-latest
+
+    steps:
+      - name: 'Testimg Github action'
+        run: pwd
+
+      - name: 'Testimg Printing'
+        run: echo Momen
