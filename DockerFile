@@ -1,7 +1,7 @@
 FROM node:14
-WORKDIR /usr/src/application
-COPY package*.json  index.js ./
+WORKDIR /usr/src/app
+COPY package*.json .
 RUN npm install
 
 EXPOSE 1000
-CMD ["node","index.js"] 
+CMD ["node","app.js"] 
