@@ -6,13 +6,13 @@ on:
 
 jobs:
   build:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: 'Printing Folder Content'
         run: ls
       
       - uses: actions/checkout@v3
-      
+
       - name: 'Printing Folder Content'
         run: ls
